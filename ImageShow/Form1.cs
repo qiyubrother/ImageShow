@@ -56,7 +56,11 @@ namespace ImageShow
             var bmp = new Bitmap(Properties.Resources.小图.Width, Properties.Resources.小图.Height);
             imageShow.Effect_L2R(bmp, Properties.Resources.小图, pictureBox1);
         }
-
+        /// <summary>
+        /// 从右向左
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void button4_Click(object sender, EventArgs e)
         {
             ImageShow imageShow = new ImageShow();
